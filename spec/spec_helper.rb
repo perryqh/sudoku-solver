@@ -2,6 +2,8 @@ require "bundler/setup"
 require "sudoku_solver"
 require "rspec/its"
 require "pry-nav"
+require 'coveralls'
+Coveralls.wear!
 Dir[File.join("spec/support/**/*.rb")].each { |f| require "./#{f}" }
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
