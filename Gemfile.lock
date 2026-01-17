@@ -47,12 +47,13 @@ GEM
     sync (0.5.0)
     term-ansicolor (1.7.1)
       tins (~> 1.0)
-    thor (1.2.1)
+    thor (1.4.0)
     tins (1.31.1)
       sync
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bundler
